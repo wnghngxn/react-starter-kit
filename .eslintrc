@@ -1,0 +1,182 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "plugins": [
+    "react",
+    "jsx-a11y",
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "react-app",
+    "airbnb",
+    "prettier/@typescript-eslint",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "prefer-const": 2,
+    "no-global-assign": 2,
+    "no-alert": 2,
+    "import/no-unresolved": 0,
+    "react/prop-types": 0,
+    "react/jsx-filename-extension": 0,
+    "import/extensions": 0,
+    "global-require": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/prefer-default-export": 0,
+    "camelcase": 0,
+    "no-shadow": 0,
+    "react/jsx-wrap-multilines": 0,
+    "max-depth": [
+      "error",
+      2
+    ],
+    "max-classes-per-file": [
+      "error",
+      1
+    ],
+    "id-length": [
+      "error",
+      {
+        "min": 1,
+        "max": 29
+      }
+    ],
+    "max-lines": [
+      "error",
+      {
+        "max": 125,
+        "skipComments": true,
+        "skipBlankLines": true
+      }
+    ],
+    "max-lines-per-function": [
+      "error",
+      {
+        "max": 112,
+        "skipBlankLines": true,
+        "skipComments": true
+      }
+    ],
+    "max-nested-callbacks": [
+      "error",
+      2
+    ],
+    "max-params": [
+      "error",
+      3
+    ],
+    "max-statements": [
+      "error",
+      7
+    ],
+    "no-caller": "error",
+    "prefer-exponentiation-operator": "error",
+    "prefer-object-spread": "error",
+    "prefer-regex-literals": "error",
+    "prefer-rest-params": "error",
+    "prefer-spread": "error",
+    "prefer-template": "error",
+    "radix": "error",
+    "require-yield": "error",
+    "spaced-comment": [
+      "error",
+      "always"
+    ],
+    "strict": [
+      "error",
+      "never"
+    ],
+    "no-unused-expressions": 2,
+    "no-unsafe-negation": 2,
+    "no-unsafe-finally": 2,
+    "no-unreachable": 2,
+    "no-unmodified-loop-condition": 2,
+    "no-throw-literal": 2,
+    "no-sequences": 2,
+    "no-setter-return": 2,
+    "no-self-compare": 2,
+    "no-self-assign": 2,
+    "no-return-await": 2,
+    "no-return-assign": 2
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/*.ts?(x)"
+      ],
+      "rules": {
+        "@typescript-eslint/no-unused-vars": [
+          "error",
+          {
+            "vars": "all",
+            "args": "after-used",
+            "ignoreRestSiblings": false
+          }
+        ],
+        "@typescript-eslint/no-explicit-any": 2,
+        "@typescript-eslint/comma-spacing": 2,
+        "@typescript-eslint/default-param-last": 2,
+        // "@typescript-eslint/func-call-spacing": 2,
+        "@typescript-eslint/no-array-constructor": 2,
+        "@typescript-eslint/no-dupe-class-members": 2,
+        "@typescript-eslint/no-empty-function": 2,
+        // "@typescript-eslint/no-extra-parens": 2,
+        // "@typescript-eslint/no-magic-numbers": 2,
+        "@typescript-eslint/no-unused-expressions": 2,
+        "@typescript-eslint/no-use-before-define": 2,
+        "@typescript-eslint/no-useless-constructor": 2,
+        // "@typescript-eslint/require-await": 2,
+        // "@typescript-eslint/space-before-function-paren": 2,
+        "@typescript-eslint/adjacent-overload-signatures": 2,
+        "@typescript-eslint/array-type": 2,
+        // "@typescript-eslint/await-thenable": 2,
+        // "@typescript-eslint/explicit-function-return-type": 2,
+        "@typescript-eslint/explicit-member-accessibility": 2,
+        // "@typescript-eslint/explicit-module-boundary-types": 2,
+        "@typescript-eslint/member-ordering": 2,
+        "@typescript-eslint/naming-convention": 2,
+        "@typescript-eslint/no-empty-interface": 2,
+        "@typescript-eslint/no-dynamic-delete": 2,
+        "@typescript-eslint/no-extraneous-class": 2,
+        // "@typescript-eslint/no-floating-promises": 2,
+        "@typescript-eslint/no-for-in-array": 2,
+        "@typescript-eslint/no-implied-eval": 2,
+        // "@typescript-eslint/no-misused-promises": 2,
+        "@typescript-eslint/no-namespace": 2,
+        "@typescript-eslint/no-misused-new": 2,
+        "@typescript-eslint/no-parameter-properties": 2,
+        "@typescript-eslint/no-this-alias": 2,
+        "@typescript-eslint/no-throw-literal": 2,
+        // "@typescript-eslint/no-type-alias": 2,
+        // "@typescript-eslint/no-unnecessary-condition": 2,
+        "@typescript-eslint/no-unnecessary-qualifier": 2,
+        "@typescript-eslint/no-unnecessary-type-arguments": 2,
+        "@typescript-eslint/no-unnecessary-type-assertion": 2,
+        // "@typescript-eslint/no-unsafe-call": 2,
+        // "@typescript-eslint/no-unsafe-member-access": 2,
+        "@typescript-eslint/no-unsafe-return": 2,
+        // "@typescript-eslint/no-unused-vars-experimental": 2,
+        "@typescript-eslint/prefer-as-const": 2,
+        "@typescript-eslint/prefer-for-of": 2,
+        "@typescript-eslint/prefer-function-type": 2,
+        "@typescript-eslint/prefer-readonly": 2,
+        // "@typescript-eslint/prefer-readonly-parameter-types": 2,
+        "@typescript-eslint/prefer-regexp-exec": 2,
+        // "@typescript-eslint/prefer-string-starts-ends-with": 2,
+        "@typescript-eslint/restrict-plus-operands": 2,
+        "@typescript-eslint/switch-exhaustiveness-check": 2,
+        "@typescript-eslint/type-annotation-spacing": 2,
+        "@typescript-eslint/unbound-method": 2,
+        "@typescript-eslint/unified-signatures": 2,
+        "complexity": [
+          "error",
+          {
+            "max": 8
+          }
+        ]
+      }
+    }
+  ]
+}

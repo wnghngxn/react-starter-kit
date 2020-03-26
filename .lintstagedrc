@@ -1,0 +1,7 @@
+{
+  "{src,test}/**/*{!d.ts,.ts,.tsx}": [
+		"eslint --ext .tsx,.ts --fix ./src",
+    "stylelint './src/**/*{.tsx,.ts}'",
+    "prettier --write",
+  ],
+}

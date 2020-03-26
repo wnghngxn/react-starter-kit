@@ -1,0 +1,51 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        // "useBuiltIns": "entry",
+        "modules": false
+      }
+    ]
+  ],
+  "plugins": [
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "absoluteRuntime": false,
+        "helpers": true,
+        "regenerator": true,
+        "useESModules": true,
+        "version": "^7.9.0",
+        "corejs": {
+          "version": "3",
+          "proposals": true
+        }
+      }
+    ],
+    [
+      "lodash"
+    ],
+    [
+      "babel-plugin-transform-imports",
+      {
+        "@material-ui/core": {
+          "transform": "@material-ui/core/esm/${member}",
+          "preventFullImport": true
+        },
+        "@material-ui/icons": {
+          "transform": "@material-ui/icons/esm/${member}",
+          "preventFullImport": true
+        }
+      }
+    ],
+    [
+      "babel-plugin-styled-components",
+      {
+        "displayName": true,
+        "fileName": true,
+        "pure": true
+      }
+    ]
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "/mock/:resource/:id": "/:resource/:id",
+  "/mock/:resource/": "/:resource/"
+}

@@ -1,0 +1,22 @@
+{
+  "user": [
+    {
+      "id": "0",
+      "expire": 158524754,
+      "active": true
+    },
+    {
+      "id": "1",
+      "expire": 158524754,
+      "active": true
+    }
+  ],
+  "current_user": {
+    "id": "0",
+    "username": "user0"
+  },
+  "login": {},
+  "logout": {
+    "apiId": "v1"
+  }
+}

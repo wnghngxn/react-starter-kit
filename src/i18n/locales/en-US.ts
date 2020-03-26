@@ -1,0 +1,21 @@
+export default {
+  'app.brand': '[matrix]',
+  'noun.confirm': 'confirm',
+  'noun.cancel': 'cancel',
+  'noun.username': 'username',
+  'noun.password': 'password',
+  'noun.login': 'login',
+  'noun.register': 'register',
+  'noun.reset_password': 'reset password',
+  'noun.forget_password': 'forget password',
+  'noun.deactivate': 'deactivate',
+  'module.user': 'user',
+  'sentence.check_email': 'Email sent successfully, please check!',
+  'sentence.404': '404',
+  'sentence.success': 'done!',
+  'sentence.confirm':
+    'The operation is irrevocable. Are you sure to execute it!',
+  'validator.required': 'Your input is empty！',
+  'validator.email': 'Please enter the correct email',
+  'validator.password': 'The password format is 8 to 30 half width characters!',
+};

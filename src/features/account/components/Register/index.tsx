@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import { Field, Form, FormSpy } from 'react-final-form';
 import { RFTextField } from 'lib/finalForm/RFTextField';
-import { Button } from '@material-ui/core';
+import Button from '@material-ui/core/Button';
 import { FormFeedback } from 'lib/finalForm/FormFeedback';
 import InputAdornment from '@material-ui/core/InputAdornment';
 import AccountCircle from '@material-ui/icons/AccountCircle';

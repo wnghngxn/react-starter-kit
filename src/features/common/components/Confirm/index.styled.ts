@@ -1,9 +1,7 @@
 import styled from 'styled-components';
-import {
-  DialogContent as MuiDialogContent,
-  IconButton as MuiIconButton,
-  DialogContentText as MuiDialogContentText,
-} from '@material-ui/core';
+import MuiDialogContent from '@material-ui/core/DialogContent';
+import MuiIconButton from '@material-ui/core/IconButton';
+import MuiDialogContentText from '@material-ui/core/DialogContentText';
 
 export const DialogContent = styled(MuiDialogContent)`
   display: flex;

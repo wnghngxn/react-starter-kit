@@ -1,12 +1,10 @@
 import React, { FC } from 'react';
-import {
-  Toolbar,
-  Hidden,
-  Button,
-  Box,
-  AppBar,
-  IconButton,
-} from '@material-ui/core';
+import Toolbar from '@material-ui/core/Toolbar';
+import Hidden from '@material-ui/core/Hidden';
+import Button from '@material-ui/core/Button';
+import Box from '@material-ui/core/Box';
+import AppBar from '@material-ui/core/AppBar';
+import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import ExitToApp from '@material-ui/icons/ExitToApp';
 

@@ -1,5 +1,5 @@
 import React, { FC, ComponentType } from 'react';
-import { List } from '@material-ui/core';
+import List from '@material-ui/core/List';
 import Menu from './Menu';
 
 const SidebarNav: FC<{

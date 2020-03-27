@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { Button } from '@material-ui/core';
+import Button from '@material-ui/core/Button';
 import { openDialog } from 'app/store';
 import { noop } from 'lodash';
 import { useProps } from './useProps';

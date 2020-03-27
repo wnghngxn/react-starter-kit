@@ -1,6 +1,9 @@
 import React, { FC } from 'react';
 import { Field, Form, FormSpy } from 'react-final-form';
-import { Button, Box, DialogActions, DialogContent } from '@material-ui/core';
+import Button from '@material-ui/core/Button';
+import Box from '@material-ui/core/Box';
+import DialogActions from '@material-ui/core/DialogActions';
+import DialogContent from '@material-ui/core/DialogContent';
 
 import { RFTextField } from 'lib/finalForm/RFTextField';
 import t from 'tersus-jsx.macro';

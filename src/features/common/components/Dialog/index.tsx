@@ -1,5 +1,7 @@
 import React, { FC, ReactNode } from 'react';
-import { Button, Dialog, DialogActions } from '@material-ui/core';
+import Button from '@material-ui/core/Button';
+import Dialog from '@material-ui/core/Dialog';
+import DialogActions from '@material-ui/core/DialogActions';
 
 import CloseIcon from '@material-ui/icons/Close';
 import { isString } from 'lodash';

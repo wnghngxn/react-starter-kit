@@ -2,8 +2,9 @@
 /* eslint-disable max-lines-per-function */
 import React, { FC, useRef } from 'react';
 import { Field, Form, FormSpy } from 'react-final-form';
-import { Button, DialogActions, DialogContent } from '@material-ui/core';
-
+import Button from '@material-ui/core/Button';
+import DialogActions from '@material-ui/core/DialogActions';
+import DialogContent from '@material-ui/core/DialogContent';
 import { RFTextField } from 'lib/finalForm/RFTextField';
 import { FieldGroup } from 'features/common/components/FieldGroup';
 import { FormFeedback } from 'lib/finalForm/FormFeedback';

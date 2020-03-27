@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { Button } from '@material-ui/core';
+import Button from '@material-ui/core/Button';
 import { openConfirm } from 'app/store';
 import { useProps } from './useProps';
 import { User } from '../../../../resources/user';

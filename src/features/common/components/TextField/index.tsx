@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { TextFieldProps, TextField as MuiTextField } from '@material-ui/core';
+import MuiTextField, { TextFieldProps } from '@material-ui/core/TextField';
 import capitalize from '@material-ui/core/utils/capitalize';
 import { useStyles } from './index.styled';
 

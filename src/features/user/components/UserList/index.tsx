@@ -1,7 +1,8 @@
 import React, { FC, Dispatch, SetStateAction } from 'react';
 import { Table } from 'features/common/components/Table';
 import { useAutoCallback } from 'hooks.macro';
-import { Button, Box } from '@material-ui/core';
+import Button from '@material-ui/core/Button';
+import Box from '@material-ui/core/Box';
 import { Pagination } from 'lib/hooks/pagination';
 import { User, UserColumns } from '../../resources/user';
 import { Action } from './Action';

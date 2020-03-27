@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import { openDialog } from 'app/store';
-import { Button } from '@material-ui/core';
+import Button from '@material-ui/core/Button';
 import { noop } from 'lodash';
 import { UserForm } from './UserForm';
 

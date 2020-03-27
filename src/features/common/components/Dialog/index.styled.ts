@@ -1,10 +1,8 @@
 import styled from 'styled-components';
-import {
-  DialogTitle as MuiDialogTitle,
-  DialogContent as MuiDialogContent,
-  IconButton as MuiIconButton,
-  DialogContentText as MuiDialogContentText,
-} from '@material-ui/core';
+import MuiDialogTitle from '@material-ui/core/DialogTitle';
+import MuiDialogContent from '@material-ui/core/DialogContent';
+import MuiIconButton from '@material-ui/core/IconButton';
+import MuiDialogContentText from '@material-ui/core/DialogContentText';
 
 export const DialogTitle = styled(MuiDialogTitle)`
   && {

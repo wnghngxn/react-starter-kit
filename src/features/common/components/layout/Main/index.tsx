@@ -1,6 +1,7 @@
 import React, { useState, Suspense, FC } from 'react';
 import { useTheme } from '@material-ui/core/styles';
-import { useMediaQuery, Box } from '@material-ui/core';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
+import Box from '@material-ui/core/Box';
 import { Loading } from 'features/common/components/Loading';
 import ErrorBoundary from 'react-error-boundary';
 import { renderRoutes, RouteConfigComponentProps } from 'react-router-config';

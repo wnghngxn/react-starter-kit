@@ -1,5 +1,6 @@
 import React, { FC } from 'react';
-import { Container, Box } from '@material-ui/core';
+import Container from '@material-ui/core/Container';
+import Box from '@material-ui/core/Box';
 
 export class Test {
   public n = 'test bundle';

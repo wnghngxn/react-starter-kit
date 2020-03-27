@@ -1,6 +1,7 @@
 <h1 align="center">React Starter Kit</h1>
-
 <div align="center">
+
+type checking & linting & testing your every code
 
 [![GitHub issues](https://img.shields.io/github/issues/mewchu/react-starter-kit.svg?style=flat-square)](https://github.com/mewchu/issues)
 [![MIT](https://img.shields.io/dub/l/vibe-d.svg?style=flat-square)](http://opensource.org/licenses/MIT)

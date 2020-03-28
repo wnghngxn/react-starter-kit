@@ -1,6 +1,6 @@
 const jsonServer = require('json-server');
 const path = require('path');
-const dotenv = require('../lib/dotenv');
+const dotenv = require('../../lib/dotenv');
 dotenv();
 
 const server = jsonServer.create();

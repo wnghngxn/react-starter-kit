@@ -1,0 +1,14 @@
+{
+  "name": "react-starter-kit-gql",
+  "version": "v.0.0.1",
+  "description": "mock",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "graphpack",
+    "build": "graphpack build"
+  },
+  "dependencies": {
+    "graphpack": "^1.0.9"
+  }
+}
